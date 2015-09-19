@@ -15,10 +15,12 @@ $("form").submit(function( event ) {
        console.log(review);
  
          console.log(values);
+         
+var color = "";
 
 		//make color switch here
 		function colorChange(review){
-		 var color = ""
+		 
 			switch(review){
 			case 1:
 			color = "purple";
